@@ -1,0 +1,19 @@
+{
+	"extends":["standard-with-typescript", "plugin:react/recommend"],
+	"plugins": ["react"],
+	"overrides": [
+
+         {
+
+           "files": ["*.ts", "*.tsx", "*.d.ts"],
+
+           "parserOptions": {
+
+             "project": "./tsconfig.json"
+
+           }
+
+         }
+
+       ]
+}
